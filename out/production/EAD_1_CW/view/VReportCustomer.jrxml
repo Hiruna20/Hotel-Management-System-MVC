@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5ee51221-c055-486a-b2d0-1bf33b0f93af">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="SQL">
+		<![CDATA[Select * from checkout]]>
+	</queryString>
+	<field name="coid" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="id" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="no" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="roomtype" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="noofrooms" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="checkin" class="java.sql.Date">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="checkout" class="java.sql.Date">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="107" splitType="Stretch">
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="0" width="555" height="107" backcolor="#000066" uuid="14e2d0c3-614b-4214-8add-e69b55ce5093"/>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<image>
+				<reportElement x="50" y="33" width="40" height="40" uuid="2d00ee99-457d-4961-bd2d-cb17cf51258f"/>
+				<imageExpression><![CDATA["C:\\Users\\acer\\Documents\\NetBeansProjects\\EAD_1_CW\\src\\Images\\icons8-hotel-40 - Copy.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="190" y="16" width="158" height="27" forecolor="#FFCC00" uuid="16f1c295-1217-4c68-bd62-99b6a2688bac"/>
+				<textElement>
+					<font fontName="Segoe UI" size="18" isBold="true"/>
+				</textElement>
+				<text><![CDATA[HOTEL EVERLAND]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="143" y="53" width="259" height="20" forecolor="#FFCC00" uuid="7a5e41b3-a540-454e-96ee-6e6457dfff8b"/>
+				<textElement>
+					<font fontName="Segoe UI"/>
+				</textElement>
+				<text><![CDATA[2 Sri Chittampalam A Gardinier Mawatha, Colombo 00200]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="234" y="73" width="59" height="20" forecolor="#FFCC00" uuid="1674945f-e113-424f-9588-78972b431a5d"/>
+				<textElement>
+					<font fontName="Segoe UI"/>
+				</textElement>
+				<text><![CDATA[041-2346578]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="44" splitType="Stretch">
+			<staticText>
+				<reportElement x="190" y="13" width="176" height="31" forecolor="#000066" uuid="b0d5c0b7-5664-4a26-b82a-14ea4e4b4a94"/>
+				<textElement>
+					<font fontName="Segoe UI" size="18" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CUSTOMER REPORT]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="14" y="16" width="76" height="20" forecolor="#000066" uuid="45995157-5b9a-4ebd-adab-20d1bb6d7f5d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Segoe UI" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="90" y="16" width="86" height="20" forecolor="#000066" uuid="fa1e8741-caef-410a-a3ea-b6f44bf5f54a"/>
+				<textElement textAlignment="Center">
+					<font fontName="Segoe UI" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Number]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="176" y="16" width="88" height="20" forecolor="#000066" uuid="0283b612-e236-4c33-9f01-8f88567112ae"/>
+				<textElement textAlignment="Center">
+					<font fontName="Segoe UI" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Room Type]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="264" y="16" width="86" height="20" forecolor="#000066" uuid="e29a8503-344f-4b12-925a-5b57825c4270"/>
+				<textElement textAlignment="Center">
+					<font fontName="Segoe UI" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[No of Room]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="350" y="16" width="97" height="20" forecolor="#000066" uuid="45b3a553-0fdd-4969-b1e5-43fd340273c8"/>
+				<textElement textAlignment="Center">
+					<font fontName="Segoe UI" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Checkin]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="447" y="16" width="92" height="20" forecolor="#000066" uuid="c1eed2c2-fd40-4dbc-b635-6c368462def3"/>
+				<textElement textAlignment="Center">
+					<font fontName="Segoe UI" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Checkout]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="25" splitType="Stretch">
+			<textField>
+				<reportElement x="174" y="0" width="88" height="20" uuid="0ec39083-9abc-4d56-ba48-9388fceffb80"/>
+				<textElement textAlignment="Center">
+					<font fontName="Segoe UI" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{roomtype}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="262" y="0" width="86" height="20" uuid="bcdc33bf-4591-4089-81b6-d9691d9f5057"/>
+				<textElement textAlignment="Center">
+					<font fontName="Segoe UI" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{noofrooms}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="348" y="0" width="97" height="20" uuid="a5405e09-41ac-4731-a1fc-60ddc5fc6fe6"/>
+				<textElement textAlignment="Center">
+					<font fontName="Segoe UI" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{checkin}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="445" y="0" width="92" height="20" uuid="e643b2d5-6822-46c3-90a1-86301392b50d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Segoe UI" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{checkout}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="12" y="0" width="76" height="20" forecolor="#000000" uuid="3fac0024-35fd-48b6-b2b0-e5210f8f013f"/>
+				<textElement textAlignment="Center">
+					<font fontName="Segoe UI" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="88" y="0" width="86" height="20" forecolor="#000000" uuid="26d076c8-2e67-4d07-9659-8c3ef3ae9e0c"/>
+				<textElement textAlignment="Center">
+					<font fontName="Segoe UI" size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{no}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch">
+			<staticText>
+				<reportElement x="190" y="14" width="176" height="31" forecolor="#000066" uuid="1a94ec4a-c90c-4fff-9187-b4645e6c999f"/>
+				<textElement>
+					<font fontName="Segoe UI" size="18" isBold="true"/>
+				</textElement>
+				<text><![CDATA[THANK YOU..!]]></text>
+			</staticText>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch">
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="0" width="555" height="54" forecolor="#000066" backcolor="#000066" uuid="a8a69d64-dc6b-4cf8-a009-94aad91178d3"/>
+				<text><![CDATA[]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

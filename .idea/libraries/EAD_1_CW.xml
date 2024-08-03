@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="EAD_1_CW">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/EAD_1_CW.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
